@@ -97,6 +97,7 @@ ul li{
 
 footer{
     background-color: darkslategray;
+    padding: 10px;
 }
 
 #dim-3{
@@ -104,6 +105,7 @@ footer{
     width: 60%;
     margin-left: 20%;
     font-size: 0;
+    margin-bottom: 20px;
 }
 
 #rett-grande{
@@ -119,4 +121,18 @@ footer{
     width: 15%;
     display: inline-block;
     border: 1px solid black;
+}
+
+#dim-4{
+    height: 10%;
+}
+
+#barra-fondo{
+    background-color: aquamarine;
+    width: 60%;
+    height: 10px;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
