@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
 header{
     background-color: blue;
     height: auto;
@@ -51,6 +52,7 @@ ul li{
     background-color: fuchsia;
 }
 
+/* MAIN */
 .dim-1{
     height: 300px;
     width: 60%;
@@ -63,8 +65,6 @@ ul li{
     height: 300px;
     width: 60%;
     margin-left: 20%;
-    margin-top: 15px;
-    margin-bottom: 15px;
     background-color: green;
 }
 
@@ -91,4 +91,32 @@ ul li{
     background-color: pink;
     display: flex;
     display: inline-block;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: darkslategray;
+}
+
+#dim-3{
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 0;
+}
+
+#rett-grande{
+    background-color: darksalmon;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+}
+
+.rett-piccoli{
+    background-color: aquamarine;
+    height: 100%;
+    width: 15%;
+    display: inline-block;
+    border: 1px solid black;
 }
